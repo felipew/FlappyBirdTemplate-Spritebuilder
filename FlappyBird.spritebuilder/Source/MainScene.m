@@ -67,7 +67,7 @@
     [_parallaxContainer addChild:_parallaxBackground];
     
     _bushParallaxRatio = ccp(0.9,1);
-    _cloudParallaxRatio = ccp(0.5,1);
+    _cloudParallaxRatio = ccp(0.2,1);
     
     for (CCNode *bush in _bushes) {
         CGPoint offset = bush.position;
